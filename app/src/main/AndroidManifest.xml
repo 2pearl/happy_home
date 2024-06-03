@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.happy_home">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="소통하는 주거환경"
+        android:roundIcon="@drawable/circle_logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity
+            android:name=".initialization_device"
+            android:exported="true"
+            android:noHistory="true"
+            android:windowSoftInputMode="adjustUnspecified|adjustPan" />
+        <activity
+            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+            android:screenOrientation="fullSensor"
+            android:noHistory="true"
+            tools:replace="screenOrientation" />
+
+        <activity
+            android:name=".registerDevice"
+            android:exported="true"
+            android:windowSoftInputMode="adjustUnspecified|adjustPan" />
+        <activity
+            android:name=".facilityList"
+            android:exported="true"
+            android:noHistory="true"
+            android:windowSoftInputMode="adjustUnspecified|adjustPan" />
+        <activity
+            android:name=".parkList"
+            android:exported="true"
+            android:noHistory="true"
+            android:windowSoftInputMode="adjustUnspecified|adjustPan" />
+        <activity
+            android:name=".facility_act"
+            android:exported="true"
+            android:noHistory="true"
+            android:windowSoftInputMode="adjustUnspecified|adjustPan" />
+        <activity
+            android:name=".parking"
+            android:exported="true"
+            android:noHistory="true"
+            android:windowSoftInputMode="adjustUnspecified|adjustPan" />
+        <activity
+            android:name=".chatListAdmin"
+            android:exported="true"
+            android:noHistory="true"
+            android:windowSoftInputMode="adjustUnspecified|adjustPan" />
+        <activity
+            android:name=".Chatting"
+            android:exported="true"
+            android:noHistory="true"
+            android:windowSoftInputMode="adjustUnspecified|adjustPan" />
+        <activity android:name=".register_parking"
+            android:windowSoftInputMode="adjustUnspecified|adjustPan" />
+        <activity android:name=".register_facility"
+            android:windowSoftInputMode="adjustUnspecified|adjustPan" />
+
+        <service
+            android:name=".MyService"
+            android:enabled="true"
+            android:exported="true"
+            android:noHistory="true"/>
+
+        <activity
+            android:name=".splashScreen"
+            android:noHistory="true"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Fragment_mem_main"
+            android:noHistory="true"
+            android:windowSoftInputMode="adjustUnspecified|adjustPan" />
+        <activity android:name=".Fragment_admin_main"
+            android:noHistory="true"
+            android:windowSoftInputMode="adjustUnspecified|adjustPan" />
+        <activity android:name=".noticeList"
+            android:noHistory="true"
+            android:windowSoftInputMode="adjustUnspecified|adjustPan" />
+        <activity android:name=".noticeDetail"
+            android:noHistory="true"
+            android:windowSoftInputMode="adjustUnspecified|adjustPan" />
+        <activity android:name=".noticeEdit"
+            android:noHistory="true"
+            android:windowSoftInputMode="adjustUnspecified|adjustPan" />
+        <activity android:name=".noticeWrite"
+            android:noHistory="true"
+            android:windowSoftInputMode="adjustUnspecified|adjustPan" />
+        <activity android:name=".commuList"
+            android:noHistory="true"
+            android:windowSoftInputMode="adjustUnspecified|adjustPan" />
+        <activity android:name=".commuDetail"
+            android:noHistory="true"
+            android:windowSoftInputMode="adjustUnspecified|adjustPan" />
+        <activity android:name=".commuEdit"
+            android:noHistory="true"
+            android:windowSoftInputMode="adjustUnspecified|adjustPan" />
+        <activity android:name=".commuWrite"
+            android:noHistory="true"
+            android:windowSoftInputMode="adjustUnspecified|adjustPan" />
+        <activity android:name=".findPw"
+            android:noHistory="true"
+            android:windowSoftInputMode="adjustUnspecified|adjustPan" />
+        <activity android:name=".changeResidence"
+            android:noHistory="true"
+            android:windowSoftInputMode="adjustUnspecified|adjustPan" />
+        <activity android:name=".initialization"
+            android:noHistory="true"
+            android:windowSoftInputMode="adjustUnspecified|adjustPan" />
+        <activity android:name=".changePw"
+            android:noHistory="true"
+            android:windowSoftInputMode="adjustUnspecified|adjustPan" />
+        <activity android:name=".signUp"
+            android:noHistory="true"
+            android:windowSoftInputMode="adjustUnspecified|adjustPan" />
+        <activity android:name=".Login"
+            android:noHistory="true"
+            android:windowSoftInputMode="adjustUnspecified|adjustPan" />
+        <activity android:name=".MyPostList"
+            android:noHistory="true"
+            android:windowSoftInputMode="adjustUnspecified|adjustPan" />
+        <activity android:name=".MyReplyList"
+            android:noHistory="true"
+            android:windowSoftInputMode="adjustUnspecified|adjustPan" />
+
+    </application>
+
+</manifest>

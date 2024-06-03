@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1041472595390",
+    "firebase_url": "https://happy-home-1feed-default-rtdb.firebaseio.com",
+    "project_id": "happy-home-1feed",
+    "storage_bucket": "happy-home-1feed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1041472595390:android:3f0af5e0bc24ad49d9c5ef",
+        "android_client_info": {
+          "package_name": "com.example.happy_home"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1041472595390-3kl0olkk5bu48f0lmnrh4e75pr3pb14l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACrUYfMIIjKXcZ487glp68MorAt0_oU7I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1041472595390-3kl0olkk5bu48f0lmnrh4e75pr3pb14l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
